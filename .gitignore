@@ -8,9 +8,6 @@ __pycache__/
 # Ignore configuration and credential files
 pipeline.conf
 
-# Ignore CSV data extracts
-*.csv
-
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
