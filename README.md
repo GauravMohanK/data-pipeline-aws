@@ -25,11 +25,11 @@ A Python-based data pipeline that:
 ## 📁 Project Structure
 
 <pre lang="no-highlight"> 
-  ├── pipeline/ # Core pipeline logic │ 
+  ├── pipeline/ # Core pipeline logic 
   └── extract_mysql_full.py  
   └── extract_incremental.py 
   │ 
-  ├── pipeline.conf # (Private – Git ignored) │ 
+  ├── pipeline.conf # (Private – Git ignored) 
   ├── .gitignore 
   ├── requirements.txt  
 
