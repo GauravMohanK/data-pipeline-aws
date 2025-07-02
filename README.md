@@ -1,14 +1,26 @@
 # 🛠️ Data Pipeline Project
 
-A modular and production-ready data pipeline built with **Python** that:
+A Python-based data pipeline that:
+- Extracts data from **MySQL**
+- Stages it in **AWS S3**
+- Loads it into **Amazon Redshift**
 
-- 📤 Extracts data from **MySQL**
-- ☁️ Stages it in **Amazon S3**
-- 🧱 Loads it into **Amazon Redshift**
+## 🚀 Features
 
-Supports both **full loads** and **incremental loads**, and is structured for clarity and maintainability.
+- ✅ Full Load
+- ✅ Incremental Load
+- ✅ Modular and configurable
 
----
+## 🔧 Tech Stack
+
+- Python
+- MySQL
+- Amazon S3
+- Amazon Redshift
+- Boto3
+- psycopg2 / SQLAlchemy
+
+...
 
 ## 📁 Project Structure
 
