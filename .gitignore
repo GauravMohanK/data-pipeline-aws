@@ -1,9 +1,15 @@
 # Ignore Python cache and compiled files
 __pycache__/
 *.pyc
+*.jar
 
 # Ignore virtual environment
 .venv/
+
+# Ignore config files with AWS keys
+config.py
+*.env
+aws_config.json
 
 # Ignore configuration and credential files
 pipeline.conf
@@ -11,3 +17,5 @@ pipeline.conf
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+
