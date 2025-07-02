@@ -14,12 +14,11 @@ Supports both **full loads** and **incremental loads**, and is structured for cl
 
 <pre lang="no-highlight"> 
   ├── pipeline/ # Core pipeline logic │ 
-  ├── extract_mysql_full.py │ 
-  └── extract_incremental.py │ 
-  ├── config/ # Configuration files │
+  └── extract_mysql_full.py  
+  └── extract_incremental.py 
+  │ 
   ├── pipeline.conf # (Private – Git ignored) │ 
   ├── .gitignore 
-  ├── requirements.txt 
-  ├── README.md 
-  └── .venv/ # Virtual environment (optional) 
-  ``` </pre>
+  ├── requirements.txt  
+
+   </pre>
